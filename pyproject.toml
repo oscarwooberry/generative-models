@@ -9,6 +9,9 @@ description = "Stability Generative Models"
 readme = "README.md"
 license-files = { paths = ["LICENSE-CODE"] }
 requires-python = ">=3.8"
+dependencies = [
+    "kornia",
+]
 
 [project.urls]
 Homepage = "https://github.com/Stability-AI/generative-models"
